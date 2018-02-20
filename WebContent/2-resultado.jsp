@@ -7,17 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-Olá pessoal tudo bem com vocês?
-<% for (int i =0; i <= 10; i++) {%>
-</br>
-<%=i%>
 
-<%} %>
-
-<form action="2-resultado.jsp" method="POST">
-	Nome:<input type="text" name="nome"/>
-	Sobrenome:<input type="text" name="sobrenome"/>
-	<input type="submit" text="Enviar"/>
-</form>
+	O Nome completo é:<input type="label" value="<%= request.getParameter("nome")%>"/> 	<input type="label" value="<%= request.getParameter("sobrenome")%>"/>
 </body>
 </html>
