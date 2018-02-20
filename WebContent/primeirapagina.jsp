@@ -8,5 +8,10 @@
 </head>
 <body>
 Olá pessoal tudo bem com vocês?
+<% for (int i =0; i <= 10; i++) {%>
+</br>
+<%=i%>
+
+<%} %>
 </body>
 </html>
