@@ -8,6 +8,7 @@
 </head>
 <body>
 
-	O Nome completo é:<input type="label" value="<%= request.getParameter("nome")%>"/> 	<input type="label" value="<%= request.getParameter("sobrenome")%>"/>
+	O Nome completo é:
+	<label><%= request.getParameter("nome")%> <%= request.getParameter("sobrenome")%></label>
 </body>
 </html>
